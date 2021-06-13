@@ -1,0 +1,36 @@
+1)The results of input is always string , if you want the number you should put 
+int or float (depends on what you want to achieve) before the input.
+2) ( : ) is like ({} in JS)
+3) you should have indention after you define your function
+4) for using any module you just need to import it , if you want to import 
+different package from one module you should use => from <module name> import <package nameS>
+5)you can use help(module name) to understand the module
+6)you can use dir(module name) to see which packages the module have
+7)python always show the number results with float
+
+8)for showing the results of a variable you can choose either of these 2 ways :
+    print(f"....{variable which is defined before}....")
+    print("......{variable}.......".format(name of the variables are defined before))
+
+9)join in python:
+    "symbol".join(array)
+
+    JS : array.join("symbol")
+
+10)ASCI :
+    Capital characters : start from 065 (A) to 090 (Z)
+    Small   characters : start from 097 (a) to 122 (z)
+
+*difference between the capital and small characters are 32.
+    Capital characters + 32 = small characters 
+      
+11) ASCI functions :
+    ord("characters you want") ==> show the ASCI
+    char("ASCI number") ==> show the characters
+
+
+12)Slicing in python: 
+    S(name of array)[start : end (it always should be one more than the result we want )  : steps]
+    we can use minus as well , minus start counting from right to left
+
+13)Type of the result of each module we call are objects 
