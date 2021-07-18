@@ -34,3 +34,7 @@ different package from one module you should use => from <module name> import <p
     we can use minus as well , minus start counting from right to left
 
 13)Type of the result of each module we call are objects 
+14)timedelta
+15)strftime(format)
+16)strptime(string,format)
+17)*args & **kwargs
