@@ -1,11 +1,11 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for,jsonify
 
 app = Flask(__name__)
 
 
 @app.route("/home")
 def home():
-    return "<h1> Helloo Ellie :P </h1>"
+    return jsonify("<h1> Helloo Ellie :P </h1>")
 
 @app.route("/<name>")
 def user(name):
@@ -20,4 +20,4 @@ def admin():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
